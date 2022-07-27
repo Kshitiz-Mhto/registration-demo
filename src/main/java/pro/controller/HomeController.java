@@ -33,6 +33,6 @@ public class HomeController {
     @RequestMapping(path="/formProcess", method=RequestMethod.POST)
     public String formProcess(@ModelAttribute("user") User user , Model model) {
     	this.userService.createUser(user);
-    	return ("login");
+    	return ("index");
     }
 }

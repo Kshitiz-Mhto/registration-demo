@@ -38,7 +38,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>data</finalName>
+    <finalName>registration-demo</finalName>
     <plugins>
 	    <plugin>
 		    <groupId>org.apache.maven.plugins</groupId>
