@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <style>@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
-    <link rel="stylesheet" type="text/css" href="./css/signup.css"/>
     </style>
+    <link rel="stylesheet" type="text/css" href="./css/signup.css"/>
     <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico"/>
 	<title>Sign up</title>
 </head>

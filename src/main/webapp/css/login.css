@@ -82,6 +82,6 @@ a:hover{
 	color: deepskyblue;
 	transition: color .5s;
 }
-a: visited, button:visited{
+a:visited, button:visited{
 	color: green;
 }

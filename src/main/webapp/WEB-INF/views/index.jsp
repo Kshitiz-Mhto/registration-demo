@@ -1,3 +1,4 @@
+<%@ page isELIgnored="false" %>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,8 +6,9 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
          <style>
         @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
-        <link rel="stylesheet" type="text/css" href="/css/index.css"/>
         </style> 
+        <link rel="stylesheet" type="text/css" href="./css/index.css"/>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico"/>
         <meta name="viewport" content="width=device-width,  initial-scale=1">
     </head>
     <body>
@@ -25,6 +27,9 @@
                         With a Click!!<br><br>
 
                     </p>
+                </section>
+                <section>
+                    <p>${msg}</p>
                 </section>
                 <section id="tail">
                     <button id="login" type="submit">
