@@ -6,13 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="./css/login.css"/>
     <style>@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');</style>
-    <link rel="shortcut icon" type="image/x-icon" href="/resources/assets/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico"/>
 	<title>Log in</title>
 </head>
 <body>
     <main>
         <div class="container">
-            <form id="loginform" action="index" method="GET">
+            <form id="loginform" action="loginSuccess" method="GET">
                 <div class="box">
                     <p id="head"><b>Log In</b></p>
                     <ion-icon name="finger-print-outline"></ion-icon>&nbsp;

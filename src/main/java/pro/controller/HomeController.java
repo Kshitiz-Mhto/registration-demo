@@ -25,6 +25,12 @@ public class HomeController {
     	return "login";
     }
     
+    @RequestMapping("/loginSuccess")
+    public String login(Model data) {
+        data.addAttribute("msg","Login Successful!!");
+    	return "index";
+    }
+    
     @RequestMapping("/signup")
     public String signup() {
     	return "signup";
@@ -33,6 +39,7 @@ public class HomeController {
     @RequestMapping(path="/formProcess", method=RequestMethod.POST)
     public String formProcess(@ModelAttribute("user") User user , Model model) {
     	this.userService.createUser(user);
+    	model.addAttribute("msg","Login Successful!!");
     	return ("index");
     }
 }
